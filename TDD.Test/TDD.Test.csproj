@@ -26,4 +26,8 @@
     <ProjectReference Include="..\TDD\TDD.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controller\" />
+  </ItemGroup>
+
 </Project>
