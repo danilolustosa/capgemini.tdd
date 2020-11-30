@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using TDD.Domain;
+using TDD.Interface;
 using TDD.Service;
 
 namespace TDD.Controllers
@@ -13,16 +14,24 @@ namespace TDD.Controllers
     [Route("[controller]")]
     public class CustomerController : ControllerBase
     {
+        private ICustomerService _service;
+
+        public CustomerController(ICustomerService service)
+        {
+            _service = service;
+        }
+
+
         [HttpGet]
         public Customer Get()
         {
-            return new CustomerService().Obter();
+            return _service.Obter();
         }
 
         [HttpGet("all")]
         public CustomerList GetAll()
         {
-            return new CustomerService().Listar();
+            return _service.Listar();
         }
     }
 }

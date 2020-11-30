@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.4732" branch-rate="0.5" version="1.9" timestamp="1606742145" lines-covered="53" lines-valid="112" branches-covered="3" branches-valid="6">
+<coverage line-rate="0.3928" branch-rate="0.6666" version="1.9" timestamp="1606745077" lines-covered="55" lines-valid="140" branches-covered="4" branches-valid="6">
   <sources>
     <source>C:\Users\User\</source>
   </sources>
   <packages>
-    <package name="TDD" line-rate="0.3176" branch-rate="0.5" complexity="26">
+    <package name="TDD" line-rate="0.1923" branch-rate="0.6666" complexity="31">
       <classes>
-        <class name="TDD.Program" filename="source\repos\TDD\Program.cs" line-rate="0" branch-rate="1" complexity="2">
+        <class name="TDD.Program" filename="source\repos\CapgeminiTDD\TDD\Program.cs" line-rate="0" branch-rate="1" complexity="2">
           <methods>
             <method name="Main" signature="(System.String[])" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -36,7 +36,7 @@
             <line number="24" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="TDD.Startup" filename="source\repos\TDD\Startup.cs" line-rate="0" branch-rate="0" complexity="5">
+        <class name="TDD.Startup" filename="source\repos\CapgeminiTDD\TDD\Startup.cs" line-rate="0" branch-rate="0" complexity="5">
           <methods>
             <method name="get_Configuration" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -108,7 +108,7 @@
             <line number="21" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="TDD.WeatherForecast" filename="source\repos\TDD\WeatherForecast.cs" line-rate="0" branch-rate="1" complexity="4">
+        <class name="TDD.WeatherForecast" filename="source\repos\CapgeminiTDD\TDD\WeatherForecast.cs" line-rate="0" branch-rate="1" complexity="4">
           <methods>
             <method name="get_Date" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -138,113 +138,165 @@
             <line number="13" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="TDD.Service.CustomerService" filename="source\repos\TDD\Service\CustomerService.cs" line-rate="1" branch-rate="0.75" complexity="6">
+        <class name="TDD.Service.CustomerService" filename="source\repos\CapgeminiTDD\TDD\Service\CustomerService.cs" line-rate="1" branch-rate="1" complexity="7">
           <methods>
             <method name="Obter" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="13" hits="1" branch="False" />
-                <line number="14" hits="1" branch="False" />
-                <line number="15" hits="1" branch="False" />
-                <line number="16" hits="1" branch="False" />
-                <line number="17" hits="1" branch="False" />
-                <line number="20" hits="1" branch="False" />
-                <line number="21" hits="1" branch="False" />
+                <line number="22" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
+                <line number="24" hits="1" branch="False" />
               </lines>
             </method>
             <method name="Listar" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="24" hits="1" branch="False" />
-                <line number="25" hits="1" branch="False" />
                 <line number="27" hits="1" branch="False" />
                 <line number="28" hits="1" branch="False" />
                 <line number="29" hits="1" branch="False" />
-                <line number="30" hits="1" branch="False" />
-                <line number="32" hits="1" branch="False" />
-                <line number="33" hits="1" branch="False" />
-                <line number="34" hits="1" branch="False" />
-                <line number="35" hits="1" branch="False" />
-                <line number="37" hits="1" branch="False" />
-                <line number="38" hits="1" branch="False" />
               </lines>
             </method>
-            <method name="Inserir" signature="(TDD.Domain.Customer)" line-rate="1" branch-rate="0.75" complexity="4">
+            <method name="Inserir" signature="(TDD.Domain.Customer)" line-rate="1" branch-rate="1" complexity="4">
               <lines>
-                <line number="42" hits="3" branch="False" />
-                <line number="43" hits="3" branch="True" condition-coverage="75% (3/4)">
+                <line number="33" hits="3" branch="False" />
+                <line number="34" hits="3" branch="True" condition-coverage="100% (4/4)">
                   <conditions>
-                    <condition number="17" type="jump" coverage="50%" />
+                    <condition number="17" type="jump" coverage="100%" />
                     <condition number="33" type="jump" coverage="100%" />
                   </conditions>
                 </line>
-                <line number="44" hits="1" branch="False" />
-                <line number="51" hits="2" branch="False" />
-                <line number="52" hits="3" branch="False" />
+                <line number="35" hits="1" branch="False" />
+                <line number="37" hits="2" branch="False" />
+                <line number="38" hits="2" branch="False" />
+                <line number="40" hits="2" branch="False" />
+                <line number="41" hits="3" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(TDD.Interface.ICustomerRepository)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="5" branch="False" />
+                <line number="16" hits="5" branch="False" />
+                <line number="17" hits="5" branch="False" />
+                <line number="18" hits="5" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="13" hits="1" branch="False" />
-            <line number="14" hits="1" branch="False" />
-            <line number="15" hits="1" branch="False" />
-            <line number="16" hits="1" branch="False" />
-            <line number="17" hits="1" branch="False" />
-            <line number="20" hits="1" branch="False" />
-            <line number="21" hits="1" branch="False" />
+            <line number="22" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
             <line number="24" hits="1" branch="False" />
-            <line number="25" hits="1" branch="False" />
             <line number="27" hits="1" branch="False" />
             <line number="28" hits="1" branch="False" />
             <line number="29" hits="1" branch="False" />
-            <line number="30" hits="1" branch="False" />
-            <line number="32" hits="1" branch="False" />
-            <line number="33" hits="1" branch="False" />
-            <line number="34" hits="1" branch="False" />
-            <line number="35" hits="1" branch="False" />
-            <line number="37" hits="1" branch="False" />
-            <line number="38" hits="1" branch="False" />
-            <line number="42" hits="3" branch="False" />
-            <line number="43" hits="3" branch="True" condition-coverage="75% (3/4)">
+            <line number="33" hits="3" branch="False" />
+            <line number="34" hits="3" branch="True" condition-coverage="100% (4/4)">
               <conditions>
-                <condition number="17" type="jump" coverage="50%" />
+                <condition number="17" type="jump" coverage="100%" />
                 <condition number="33" type="jump" coverage="100%" />
               </conditions>
             </line>
-            <line number="44" hits="1" branch="False" />
-            <line number="51" hits="2" branch="False" />
-            <line number="52" hits="3" branch="False" />
+            <line number="35" hits="1" branch="False" />
+            <line number="37" hits="2" branch="False" />
+            <line number="38" hits="2" branch="False" />
+            <line number="40" hits="2" branch="False" />
+            <line number="41" hits="3" branch="False" />
+            <line number="15" hits="5" branch="False" />
+            <line number="16" hits="5" branch="False" />
+            <line number="17" hits="5" branch="False" />
+            <line number="18" hits="5" branch="False" />
           </lines>
         </class>
-        <class name="TDD.Domain.BaseDomain" filename="source\repos\TDD\Domain\BaseDomain.cs" line-rate="1" branch-rate="1" complexity="1">
+        <class name="TDD.Repository.CustomerRepository" filename="source\repos\CapgeminiTDD\TDD\Repository\CustomerRepository.cs" line-rate="0" branch-rate="1" complexity="3">
           <methods>
-            <method name="get_StatusCode" signature="()" line-rate="1" branch-rate="1" complexity="1">
+            <method name="Obter" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="10" hits="9" branch="False" />
+                <line number="14" hits="0" branch="False" />
+                <line number="15" hits="0" branch="False" />
+                <line number="16" hits="0" branch="False" />
+                <line number="17" hits="0" branch="False" />
+                <line number="18" hits="0" branch="False" />
+                <line number="20" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Listar" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="24" hits="0" branch="False" />
+                <line number="25" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
+                <line number="30" hits="0" branch="False" />
+                <line number="32" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
+                <line number="35" hits="0" branch="False" />
+                <line number="37" hits="0" branch="False" />
+                <line number="38" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="Inserir" signature="(TDD.Domain.Customer)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="42" hits="0" branch="False" />
+                <line number="43" hits="0" branch="False" />
+                <line number="44" hits="0" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="10" hits="9" branch="False" />
+            <line number="14" hits="0" branch="False" />
+            <line number="15" hits="0" branch="False" />
+            <line number="16" hits="0" branch="False" />
+            <line number="17" hits="0" branch="False" />
+            <line number="18" hits="0" branch="False" />
+            <line number="20" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="24" hits="0" branch="False" />
+            <line number="25" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="30" hits="0" branch="False" />
+            <line number="32" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
+            <line number="37" hits="0" branch="False" />
+            <line number="38" hits="0" branch="False" />
+            <line number="42" hits="0" branch="False" />
+            <line number="43" hits="0" branch="False" />
+            <line number="44" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="TDD.Domain.Customer" filename="source\repos\TDD\Domain\Customer.cs" line-rate="1" branch-rate="1" complexity="2">
+        <class name="TDD.Domain.BaseDomain" filename="source\repos\CapgeminiTDD\TDD\Domain\BaseDomain.cs" line-rate="1" branch-rate="1" complexity="1">
+          <methods>
+            <method name="get_StatusCode" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="29" branch="False" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="10" hits="29" branch="False" />
+          </lines>
+        </class>
+        <class name="TDD.Domain.Customer" filename="source\repos\CapgeminiTDD\TDD\Domain\Customer.cs" line-rate="1" branch-rate="1" complexity="2">
           <methods>
             <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="10" hits="6" branch="False" />
+                <line number="10" hits="21" branch="False" />
               </lines>
             </method>
             <method name="get_Name" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="11" hits="11" branch="False" />
+                <line number="11" hits="26" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="10" hits="6" branch="False" />
-            <line number="11" hits="11" branch="False" />
+            <line number="10" hits="21" branch="False" />
+            <line number="11" hits="26" branch="False" />
           </lines>
         </class>
-        <class name="TDD.Domain.CustomerList" filename="source\repos\TDD\Domain\CustomerList.cs" line-rate="0" branch-rate="1" complexity="1">
+        <class name="TDD.Domain.CustomerList" filename="source\repos\CapgeminiTDD\TDD\Domain\CustomerList.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
             <method name="get_Lista" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -256,33 +308,45 @@
             <line number="10" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="TDD.Controllers.CustomerController" filename="source\repos\TDD\Controllers\CustomerController.cs" line-rate="0" branch-rate="1" complexity="2">
+        <class name="TDD.Controllers.CustomerController" filename="source\repos\CapgeminiTDD\TDD\Controllers\CustomerController.cs" line-rate="0" branch-rate="1" complexity="3">
           <methods>
             <method name="Get" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="18" hits="0" branch="False" />
-                <line number="19" hits="0" branch="False" />
-                <line number="20" hits="0" branch="False" />
+                <line number="27" hits="0" branch="False" />
+                <line number="28" hits="0" branch="False" />
+                <line number="29" hits="0" branch="False" />
               </lines>
             </method>
             <method name="GetAll" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
-                <line number="24" hits="0" branch="False" />
-                <line number="25" hits="0" branch="False" />
-                <line number="26" hits="0" branch="False" />
+                <line number="33" hits="0" branch="False" />
+                <line number="34" hits="0" branch="False" />
+                <line number="35" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="(TDD.Interface.ICustomerService)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="0" branch="False" />
+                <line number="20" hits="0" branch="False" />
+                <line number="21" hits="0" branch="False" />
+                <line number="22" hits="0" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="18" hits="0" branch="False" />
+            <line number="27" hits="0" branch="False" />
+            <line number="28" hits="0" branch="False" />
+            <line number="29" hits="0" branch="False" />
+            <line number="33" hits="0" branch="False" />
+            <line number="34" hits="0" branch="False" />
+            <line number="35" hits="0" branch="False" />
             <line number="19" hits="0" branch="False" />
             <line number="20" hits="0" branch="False" />
-            <line number="24" hits="0" branch="False" />
-            <line number="25" hits="0" branch="False" />
-            <line number="26" hits="0" branch="False" />
+            <line number="21" hits="0" branch="False" />
+            <line number="22" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="TDD.Controllers.WeatherForecastController" filename="source\repos\TDD\Controllers\WeatherForecastController.cs" line-rate="0" branch-rate="1" complexity="3">
+        <class name="TDD.Controllers.WeatherForecastController" filename="source\repos\CapgeminiTDD\TDD\Controllers\WeatherForecastController.cs" line-rate="0" branch-rate="1" complexity="3">
           <methods>
             <method name="Get" signature="()" line-rate="0" branch-rate="1" complexity="1">
               <lines>
@@ -338,7 +402,7 @@
         </class>
       </classes>
     </package>
-    <package name="TDD.Test" line-rate="0.9629" branch-rate="1" complexity="7">
+    <package name="TDD.Test" line-rate="0.9722" branch-rate="1" complexity="7">
       <classes>
         <class name="AutoGeneratedProgram" filename=".nuget\packages\microsoft.net.test.sdk\16.7.1\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
@@ -352,25 +416,9 @@
             <line number="4" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="TDD.Test.Service.CustomerServiceTest" filename="source\repos\TDD.Test\Service\CustomerServiceTest.cs" line-rate="1" branch-rate="1" complexity="6">
+        <class name="TDD.Test.Service.CustomerServiceTest" filename="source\repos\CapgeminiTDD\TDD.Test\Service\CustomerServiceTest.cs" line-rate="1" branch-rate="1" complexity="6">
           <methods>
             <method name="Obter_Customer_ShouldBe200Ok" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="19" hits="1" branch="False" />
-                <line number="20" hits="1" branch="False" />
-                <line number="21" hits="1" branch="False" />
-                <line number="22" hits="1" branch="False" />
-              </lines>
-            </method>
-            <method name="Listar_AllCustomer_ShouldBe200Ok" signature="()" line-rate="1" branch-rate="1" complexity="1">
-              <lines>
-                <line number="27" hits="1" branch="False" />
-                <line number="28" hits="1" branch="False" />
-                <line number="29" hits="1" branch="False" />
-                <line number="31" hits="1" branch="False" />
-              </lines>
-            </method>
-            <method name="Inserir_ShoulBe201Created" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
                 <line number="35" hits="1" branch="False" />
                 <line number="36" hits="1" branch="False" />
@@ -380,18 +428,17 @@
                 <line number="41" hits="1" branch="False" />
               </lines>
             </method>
-            <method name="Inserir_ErrorEmptyName_ShoulBe400BadRequest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+            <method name="Listar_AllCustomer_ShouldBe200Ok" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="45" hits="1" branch="False" />
                 <line number="46" hits="1" branch="False" />
-                <line number="48" hits="1" branch="False" />
+                <line number="47" hits="1" branch="False" />
                 <line number="49" hits="1" branch="False" />
                 <line number="50" hits="1" branch="False" />
+                <line number="51" hits="1" branch="False" />
               </lines>
             </method>
-            <method name="Inserir_IdReturnsNotZero" signature="()" line-rate="1" branch-rate="1" complexity="1">
+            <method name="Inserir_ShoulBe201Created" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="54" hits="1" branch="False" />
                 <line number="55" hits="1" branch="False" />
                 <line number="56" hits="1" branch="False" />
                 <line number="58" hits="1" branch="False" />
@@ -399,39 +446,74 @@
                 <line number="60" hits="1" branch="False" />
               </lines>
             </method>
+            <method name="Inserir_ErrorEmptyName_ShoulBe400BadRequest" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="64" hits="1" branch="False" />
+                <line number="65" hits="1" branch="False" />
+                <line number="66" hits="1" branch="False" />
+                <line number="68" hits="1" branch="False" />
+                <line number="69" hits="1" branch="False" />
+                <line number="70" hits="1" branch="False" />
+              </lines>
+            </method>
+            <method name="Inserir_IdReturnsNotZero" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="74" hits="1" branch="False" />
+                <line number="75" hits="1" branch="False" />
+                <line number="77" hits="1" branch="False" />
+                <line number="78" hits="1" branch="False" />
+                <line number="79" hits="1" branch="False" />
+              </lines>
+            </method>
             <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="14" hits="5" branch="False" />
+                <line number="19" hits="5" branch="False" />
+                <line number="24" hits="5" branch="False" />
+                <line number="25" hits="5" branch="False" />
+                <line number="26" hits="5" branch="False" />
+                <line number="27" hits="5" branch="False" />
+                <line number="28" hits="5" branch="False" />
+                <line number="29" hits="5" branch="False" />
+                <line number="30" hits="5" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
-            <line number="19" hits="1" branch="False" />
-            <line number="20" hits="1" branch="False" />
-            <line number="21" hits="1" branch="False" />
-            <line number="22" hits="1" branch="False" />
-            <line number="27" hits="1" branch="False" />
-            <line number="28" hits="1" branch="False" />
-            <line number="29" hits="1" branch="False" />
-            <line number="31" hits="1" branch="False" />
             <line number="35" hits="1" branch="False" />
             <line number="36" hits="1" branch="False" />
             <line number="37" hits="1" branch="False" />
             <line number="39" hits="1" branch="False" />
             <line number="40" hits="1" branch="False" />
             <line number="41" hits="1" branch="False" />
-            <line number="45" hits="1" branch="False" />
             <line number="46" hits="1" branch="False" />
-            <line number="48" hits="1" branch="False" />
+            <line number="47" hits="1" branch="False" />
             <line number="49" hits="1" branch="False" />
             <line number="50" hits="1" branch="False" />
-            <line number="54" hits="1" branch="False" />
+            <line number="51" hits="1" branch="False" />
             <line number="55" hits="1" branch="False" />
             <line number="56" hits="1" branch="False" />
             <line number="58" hits="1" branch="False" />
             <line number="59" hits="1" branch="False" />
             <line number="60" hits="1" branch="False" />
-            <line number="14" hits="5" branch="False" />
+            <line number="64" hits="1" branch="False" />
+            <line number="65" hits="1" branch="False" />
+            <line number="66" hits="1" branch="False" />
+            <line number="68" hits="1" branch="False" />
+            <line number="69" hits="1" branch="False" />
+            <line number="70" hits="1" branch="False" />
+            <line number="74" hits="1" branch="False" />
+            <line number="75" hits="1" branch="False" />
+            <line number="77" hits="1" branch="False" />
+            <line number="78" hits="1" branch="False" />
+            <line number="79" hits="1" branch="False" />
+            <line number="19" hits="5" branch="False" />
+            <line number="24" hits="5" branch="False" />
+            <line number="25" hits="5" branch="False" />
+            <line number="26" hits="5" branch="False" />
+            <line number="27" hits="5" branch="False" />
+            <line number="28" hits="5" branch="False" />
+            <line number="29" hits="5" branch="False" />
+            <line number="30" hits="5" branch="False" />
           </lines>
         </class>
       </classes>

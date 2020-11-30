@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8SY7Etrh3wPkqupfQz/HpIf9PQojTMPFI2iFUB5yI6jEtoEgERB32Z9/LDrRxZFEJDrTY9mEVzut5zup/SSIwg==",
+  "dgSpecHash": "1SGlo+Cvvjop1v2+PUw1gFqs9H11IxkZ40fyYdPFJ2B/2cgsnUnPN/sQGSYSQMG68uE+iwuNp4wV98eAkZB7Vw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\source\\repos\\TDD\\TDD.csproj",
+  "projectFilePath": "C:\\Users\\User\\source\\repos\\CapgeminiTDD\\TDD\\TDD.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

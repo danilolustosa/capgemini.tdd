@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\TDD.Test\\TDD.Test.csproj": {}
+    "C:\\Users\\User\\source\\repos\\CapgeminiTDD\\TDD.Test\\TDD.Test.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\TDD.Test\\TDD.Test.csproj": {
+    "C:\\Users\\User\\source\\repos\\CapgeminiTDD\\TDD.Test\\TDD.Test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\TDD.Test\\TDD.Test.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\CapgeminiTDD\\TDD.Test\\TDD.Test.csproj",
         "projectName": "TDD.Test",
-        "projectPath": "C:\\Users\\User\\source\\repos\\TDD.Test\\TDD.Test.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\CapgeminiTDD\\TDD.Test\\TDD.Test.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\TDD.Test\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\CapgeminiTDD\\TDD.Test\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,8 +31,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\User\\source\\repos\\TDD\\TDD.csproj": {
-                "projectPath": "C:\\Users\\User\\source\\repos\\TDD\\TDD.csproj"
+              "C:\\Users\\User\\source\\repos\\CapgeminiTDD\\TDD\\TDD.csproj": {
+                "projectPath": "C:\\Users\\User\\source\\repos\\CapgeminiTDD\\TDD\\TDD.csproj"
               }
             }
           }
@@ -47,6 +47,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "AutoFixture": {
+              "target": "Package",
+              "version": "[4.14.0, )"
+            },
             "FluentAssertions": {
               "target": "Package",
               "version": "[5.10.3, )"
@@ -54,6 +58,10 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.7.1, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[4.2.2, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -94,14 +102,14 @@
         }
       }
     },
-    "C:\\Users\\User\\source\\repos\\TDD\\TDD.csproj": {
+    "C:\\Users\\User\\source\\repos\\CapgeminiTDD\\TDD\\TDD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\TDD\\TDD.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\CapgeminiTDD\\TDD\\TDD.csproj",
         "projectName": "TDD",
-        "projectPath": "C:\\Users\\User\\source\\repos\\TDD\\TDD.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\CapgeminiTDD\\TDD\\TDD.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\TDD\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\CapgeminiTDD\\TDD\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

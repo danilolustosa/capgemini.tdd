@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\TDD\\TDD.csproj": {}
+    "C:\\Users\\User\\source\\repos\\CapgeminiTDD\\TDD\\TDD.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\TDD\\TDD.csproj": {
+    "C:\\Users\\User\\source\\repos\\CapgeminiTDD\\TDD\\TDD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\TDD\\TDD.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\CapgeminiTDD\\TDD\\TDD.csproj",
         "projectName": "TDD",
-        "projectPath": "C:\\Users\\User\\source\\repos\\TDD\\TDD.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\CapgeminiTDD\\TDD\\TDD.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\TDD\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\CapgeminiTDD\\TDD\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

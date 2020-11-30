@@ -4,36 +4,28 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using TDD.Domain;
+using TDD.Interface;
 
 namespace TDD.Service
 {
-    public class CustomerService
+    public class CustomerService : ICustomerService
     {
+        private ICustomerRepository _repository;
+
+        public CustomerService(ICustomerRepository repository)
+        {
+            _repository = repository;
+        }
+
+
         public Customer Obter()
         {
-            Customer customer = new Customer();
-            customer.Id = 1;
-            customer.Name = "João";
-            customer.StatusCode = StatusCodes.Status200OK;
-
-            return customer;
+            return _repository.Obter();
         }
 
         public CustomerList Listar()
         {
-            List<Customer> lista = new List<Customer>();
-
-            Customer customer = new Customer();
-            customer.Id = 1;
-            customer.Name = "João";
-            lista.Add(customer);
-
-            customer = new Customer();
-            customer.Id = 2;
-            customer.Name = "Maria";
-            lista.Add(customer);
-
-            return new CustomerList() { Lista = lista, StatusCode = StatusCodes.Status200OK };
+            return new CustomerList() { Lista = _repository.Listar(), StatusCode = StatusCodes.Status200OK };
         }
 
 
@@ -42,12 +34,10 @@ namespace TDD.Service
             if (customer.Name == "" || customer.Name == null)
                 return new Customer() { StatusCode = StatusCodes.Status400BadRequest };
 
+            var result = _repository.Inserir(customer);
+            result.StatusCode = StatusCodes.Status201Created;
 
-            //chamar a Repository
-
-
-
-            return new Customer() { Id = 10,  StatusCode = StatusCodes.Status201Created };
+            return result;
         }
     }
 }
